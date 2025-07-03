@@ -41,8 +41,11 @@ h1 {
   text-align: center;
   padding: 2em;
   max-width: 800px;
-  margin-bottom: 0.5em;
   margin: 0 auto;
+}
+
+.intro p {
+  margin-bottom: 0.5em;
 }
 
 .papers, .about {
@@ -65,9 +68,8 @@ h1 {
   margin: 1em 0.5em;
   text-decoration: none;
   text-align: center;
-  min-width: 120px; /* 👈 Force equal width */
+  min-width: 140px;
 }
-
 
 .buttons {
   display: flex;
@@ -81,8 +83,3 @@ h1 {
   margin-top: 2em;
   font-size: 14px;
 }
-
-.intro p {
-  margin-bottom: 0.2em;
-}
-
