@@ -64,7 +64,10 @@ h1 {
   padding: 0.5em 1em;
   margin: 1em 0.5em;
   text-decoration: none;
+  text-align: center;
+  min-width: 120px; /* 👈 Force equal width */
 }
+
 
 .buttons {
   display: flex;
