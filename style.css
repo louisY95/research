@@ -50,7 +50,6 @@ h1 {
   margin: 0 auto;
 }
 
-
 .paper {
   margin-bottom: 2em;
   border-bottom: 1px dotted #ccc;
@@ -66,11 +65,15 @@ h1 {
   text-decoration: none;
 }
 
+.buttons {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+
 .contact, .disclaimer {
   margin-top: 2em;
   font-size: 14px;
 }
-.center {
-  text-align: center;
-}
-
